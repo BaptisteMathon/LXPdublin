@@ -380,7 +380,7 @@ footer
   
   .title {
     font-size: 28px;
-    color: royalblue;
+    color: rgb(0, 71, 171);
     font-weight: 600;
     letter-spacing: -1px;
     position: relative;
@@ -396,13 +396,13 @@ footer
     width: 16px;
     border-radius: 50%;
     left: 0px;
-    background-color: royalblue;
+    background-color: rgb(0, 71, 171);
   }
   
   .title::before {
     width: 18px;
     height: 18px;
-    background-color: royalblue;
+    background-color: rgb(0, 71, 171);
   }
   
   .title::after {
@@ -421,11 +421,11 @@ footer
   }
   
   .signin a {
-    color: royalblue;
+    color: rgb(0, 71, 171);
   }
   
   .signin a:hover {
-    text-decoration: underline royalblue;
+    text-decoration: underline rgb(0, 71, 171);
   }
   
   .flex {
@@ -474,7 +474,7 @@ footer
   .submit {
     border: none;
     outline: none;
-    background-color: royalblue;
+    background-color: rgb(0, 71, 171);
     padding: 10px;
     border-radius: 10px;
     color: #fff;

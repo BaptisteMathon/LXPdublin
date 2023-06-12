@@ -16,8 +16,6 @@
     <p class="title">Login </p>
     <p class="message">Sign in to your account. </p>
         <div class="flex">
-        
-            
     <label>
         <input required="" placeholder="" type="email" class="input">
         <span>Email</span>
@@ -27,6 +25,7 @@
         <input required="" placeholder="" type="password" class="input">
         <span>Password</span>
     </label>
+        </div>
     <button class="submit">Sign in</button>
     <p class="signin">Doesn't have an account<a href="register.php">Sign up</a> </p>
 </form>
