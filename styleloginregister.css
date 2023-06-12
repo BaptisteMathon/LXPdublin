@@ -1,0 +1,202 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body
+{
+    background-color: #f2edde;
+}
+
+/* header */
+
+header
+{
+    display: flex;
+    background-color: #0047ab;
+    color: white;
+    padding: 5px 0;
+}
+
+.FitHome a
+{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.Fit-Home
+{
+    margin-left: 15px;
+    font-size: 1.2em;
+    color: white;
+}
+header nav
+{
+    position: absolute;
+    right: 0px;
+}
+header nav ul
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.NavPage
+{
+    color: #0047ab;
+    margin-right: 15px;
+    text-decoration: none;
+    background-color: #f2edde;
+    padding: 3px 15px;
+}
+
+/* footer */
+
+footer
+{
+    background-color: #0047ab;
+}
+.FooterLink
+{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 10px 0;
+}
+.FooterLink a
+{
+    color: white;
+}
+
+/*register.php*/
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    background-color: #fff;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .title {
+    font-size: 28px;
+    color: rgb(0, 71, 171);
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+  }
+  
+  .title::before,.title::after {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    left: 0px;
+    background-color: rgb(0, 40, 173);
+  }
+  
+  .title::before {
+    width: 18px;
+    height: 18px;
+    background-color: rgb(0, 71, 171);
+  }
+  
+  .title::after {
+    width: 18px;
+    height: 18px;
+    animation: pulse 1s linear infinite;
+  }
+  
+  .message, .signin {
+    color: rgba(88, 87, 87, 0.822);
+    font-size: 14px;
+  }
+  
+  .signin {
+    text-align: center;
+  }
+  
+  .signin a {
+    color: rgb(0, 71, 171);
+  }
+  
+  .signin a:hover {
+    text-decoration: underline rgb(0, 71, 171);
+  }
+  
+  .flex {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+  }
+  
+  .form label {
+    position: relative;
+  }
+  
+  .form label .input {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+  }
+  
+  .form label .input + span {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: grey;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+  .form label .input:placeholder-shown + span {
+    top: 15px;
+    font-size: 0.9em;
+  }
+  
+  .form label .input:focus + span,.form label .input:valid + span {
+    top: 30px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  
+  .form label .input:valid + span {
+    color: green;
+  }
+  
+  .submit {
+    border: none;
+    outline: none;
+    background-color: rgb(0, 71, 171);
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    transform: .3s ease;
+  }
+  
+  .submit:hover {
+    background-color: rgb(56, 90, 194);
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(1.8);
+      opacity: 0;
+    }
+  }
