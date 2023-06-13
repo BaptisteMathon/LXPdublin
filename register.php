@@ -9,8 +9,8 @@
     <link rel="shortcut icon" href="Img/logo_startp-removebg-preview - Copie.png">
 </head>
 <body>
-
     <?php require('.\header.php') ?>
+    <div class="centré">
     <form class="form">
     <p class="title">Register </p>
     <p class="message">Signup now and get full access to our app. </p>
@@ -35,14 +35,10 @@
         <input required="" placeholder="" type="password" class="input">
         <span>Password</span>
     </label>
-    <label>
-        <input required="" placeholder="" type="password" class="input">
-        <span>Confirm password</span>
-    </label>
     <button class="submit">Submit</button>
     <p class="signin">Already have an acount ? <a href="Login.php">Signin</a> </p>
-</form>
-
+    </form>
+    </div>
     <?php require('.\footer.php') ?>
 </body>
 </html>
