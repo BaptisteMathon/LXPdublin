@@ -1,3 +1,21 @@
+<?php  
+    try
+    {
+        $db = new PDO('mysql:host=localhost;dbname=fithome;charset=utf8', 'root', 'root');
+    }
+    catch (Exception $e)
+    {
+            die('Erreur : ' . $e->getMessage());
+    }
+
+    if(count($_GET) != 0){
+
+        $sqlEdit = 'UPDATE users SET UserOnline = 0 WHERE UserOnline = 1';
+        $userEdit = $db->prepare($sqlEdit);
+        $userEdit->execute();
+    }   
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

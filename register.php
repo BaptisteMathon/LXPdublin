@@ -11,28 +11,28 @@
 <body>
     <?php require('.\header.php') ?>
     <div class="centré">
-    <form class="form">
+    <form action="myProfile.php" method="POST" class="form">
     <p class="title">Register </p>
     <p class="message">Signup now and get full access to our app. </p>
         <div class="flex">
         <label>
-            <input required="" placeholder="" type="text" class="input">
+            <input required="" placeholder="" type="text" class="input" name="FirstName">
             <span>Firstname</span>
         </label>
 
         <label>
-            <input required="" placeholder="" type="text" class="input">
+            <input required="" placeholder="" type="text" class="input" name="LastName">
             <span>Lastname</span>
         </label>
     </div>  
             
     <label>
-        <input required="" placeholder="" type="email" class="input">
+        <input required="" placeholder="" type="email" class="input" name="Email">
         <span>Email</span>
     </label> 
         
     <label>
-        <input required="" placeholder="" type="password" class="input">
+        <input required="" placeholder="" type="password" class="input" name="Password">
         <span>Password</span>
     </label>
     <button class="submit">Submit</button>
