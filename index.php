@@ -24,9 +24,6 @@
             <img src="Img/modele1.png" alt="FitHome Experience" width="40%" height="20%" class="Img1_Home">
             <p class="InfoFitHome">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita autem enim excepturi eum aliquam maxime iure voluptatum, fugit consequatur distinctio facere cum culpa a dolore ipsa at natus veritatis rem. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, maiores provident deleniti dignissimos temporibus voluptatem ipsum necessitatibus consequatur, sequi laborum veniam reprehenderit, odit vitae assumenda totam quis repudiandae dolor accusantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consectetur ea modi! Consequuntur cum ratione sed magni velit odio laudantium, quibusdam maiores. Neque aperiam incidunt aut quas, ipsa impedit ullam!</p>
         </div>
-        <audio controls autoplay loop>
-        <source src="audio/BRAZILIAN PHONK VUKI VUKI 1.0.mp3" type="audio/mpeg">
-    </audio>
         <div class="UserExp">
             <div class="User1">
                 <img src="Img/d90cf55c-27ed-41d8-8a60-47543662acb0.png" alt="User Experience 1" width="350px">

@@ -26,7 +26,6 @@
             <div class="Image_Coach">
                 <table class="Tab_Coach">
                     <tr>
-
                         <td><img src="Img/coach1.png" alt="coach 1" width="80%"><a href="#" class="name_coach">BRICE</a></td>
                         <td><img src="Img/coach1.png" alt="coach 2" width="80%"><a href="#" class="name_coach">BRICE</a></td>
                         <td><img src="Img/coach1.png" alt="coach 3" width="80%"><a href="#" class="name_coach">BRICE</a></td>
